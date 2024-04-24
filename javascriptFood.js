@@ -43,7 +43,7 @@ function submmit(){
     let drop2 = document.getElementById('drop2');
     children2 = drop2.children[0].alt;
 
-    if(children2=="img3"){
+    if(children2=="img8"){
         item_now2.innerHTML = ri;
         p++;
     }else{
@@ -53,7 +53,7 @@ function submmit(){
     let drop3 = document.getElementById('drop3');
     children3 = drop3.children[0].alt;
 
-    if(children3=="img8"){
+    if(children3=="img4"){
         item_now3.innerHTML = ri;
         p++;
     }else{
@@ -63,7 +63,7 @@ function submmit(){
     let drop4 = document.getElementById('drop4');
     children4 = drop4.children[0].alt;
 
-    if(children4=="img5"){
+    if(children4=="img3"){
         item_now4.innerHTML = ri;
         p++;
     }else{
@@ -73,7 +73,7 @@ function submmit(){
     let drop5 = document.getElementById('drop5');
     children5 = drop5.children[0].alt;
 
-    if(children5=="img4"){
+    if(children5=="img2"){
         item_now5.innerHTML = ri;
         p++;
     }else{
@@ -83,7 +83,7 @@ function submmit(){
     let drop6 = document.getElementById('drop6');
     children6 = drop6.children[0].alt;
 
-    if(children6=="img7"){
+    if(children6=="img5"){
         item_now6.innerHTML = ri;
         p++;
     }else{
@@ -93,7 +93,7 @@ function submmit(){
     let drop7 = document.getElementById('drop7');
     children7 = drop7.children[0].alt;
 
-    if(children7=="img2"){
+    if(children7=="img6"){
         item_now7.innerHTML = ri;
         p++;
     }else{
@@ -103,7 +103,7 @@ function submmit(){
     let drop8 = document.getElementById('drop8');
     children8 = drop8.children[0].alt;
 
-    if(children8=="img6"){
+    if(children8=="img7"){
         item_now8.innerHTML = ri;
         p++;
     }else{
