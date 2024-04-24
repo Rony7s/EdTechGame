@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EdTech-BDU</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="result_box">
+        <h1 id="points">100%</h1>
+        <button  onclick="closeR()">close</button>
+    </div>
+	<h1 class="brand">Animals and Their Homes</h1>
+    
+    <br>
+    <table class="gameBord">
+        <tr>
+            <td> 
+                <!-- this 1 -->
+                <div class="item_now" id="item_now1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="img/HomeMatch/Home1a.png" id="drag1" draggable="true" ondragstart="drag(event)" class="img_item" alt="img1"></img>
+                </div>
+            </td>
+            <td>
+                <div id="drop1" class="item_move" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </td>
+            <td>
+                <div class="item_name"><img src="img/HomeMatch/Home1b.png" class="img_item"></div>
+            </td>
+         <td rowspan="4" style="padding:5px; text-align: center; font-weight: 500;">টেনে টেনে <br> জীব গুলোকে সঠিক <br>স্থানে বসাও</td>
+         <!-- this 2 -->   
+         <td>
+                <div class="item_now" id="item_now2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="img/HomeMatch/Home2a.png" id="drag2" draggable="true" ondragstart="drag(event)" class="img_item" alt="img2"></img>
+                </div>
+            </td>
+            <td>
+                <div id="drop2" class="item_move" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </td>
+            <td>
+                <div class="item_name"><img src="img/HomeMatch/Home8b.png" class="img_item"></div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="item_now" id="item_now3" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="img/HomeMatch/Home3a.png" id="drag3" draggable="true" ondragstart="drag(event)" class="img_item" alt="img3"></img>
+                </div>
+            </td>
+
+            <td>
+                <div id="drop3" class="item_move" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </td>
+
+            <td>
+                <div class="item_name"><img src="img/HomeMatch/Home4b.png" class="img_item"></div>
+            </td>
+          
+            <td>
+                <div class="item_now" id="item_now4" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="img/HomeMatch/Home4a.png" id="drag4" draggable="true" ondragstart="drag(event)" class="img_item" alt="img4"></img>
+                </div>
+            </td>
+
+            <td>
+                <div id="drop4" class="item_move" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </td>
+            <td>
+                <div class="item_name"><img src="img/HomeMatch/Home3b.png" class="img_item"></div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="item_now" id="item_now5" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+                    <img src="img/HomeMatch/Home5a.png" id="drag5" draggable="true" ondragstart="drag(event)" class="img_item" alt="img5"></img>
+                </div>
+            </td>
+
+            <td>
+                <div id="drop5" class="item_move" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </td>
+
+            <td>
+                <div class="item_name"><img src="img/HomeMatch/Home2b.png" class="img_item"></div>
+            </td>
+  
+        
+            <td>
+                <div class="item_now" id="item_now6" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+                    <img src="img/HomeMatch/Home6a.png" id="drag6" draggable="true" ondragstart="drag(event)" class="img_item" alt="img6"></img>
+                </div>
+            </td>
+
+            <td>
+                <div id="drop6" class="item_move" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </td>
+
+            <td>
+                <div class="item_name"><img src="img/HomeMatch/Home5b.png" class="img_item"></div>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td>
+                <div class="item_now" id="item_now7" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+                    <img src="img/HomeMatch/Home7a.png" id="drag7" draggable="true" ondragstart="drag(event)" class="img_item" alt="img7"></img>
+                </div>
+            </td>
+
+            <td>
+                <div id="drop7" class="item_move" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </td>
+
+            <td>
+                <div class="item_name"><img src="img/HomeMatch/Home6b.png" class="img_item"></div>
+            </td>
+
+        
+            <td>
+                <div class="item_now" id="item_now8" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+                    <img src="img/HomeMatch/Home8a.png" id="drag8" draggable="true" ondragstart="drag(event)" class="img_item" alt="img8"></img>
+                </div>
+            </td>
+
+            <td>
+                <div id="drop8" class="item_move" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </td>
+
+            <td>
+                <div class="item_name"><img src="img/HomeMatch/Home7b.png" class="img_item"></div>
+            </td>
+
+        </tr>
+        <tr>
+            <td colspan=""> <button></button></td>
+            <td colspan=""><a class="nextBtn" href="index.html">previous Game</a></td>
+            <td colspan="3"> <button onclick="submmit()" id="submmit">Submit Now</button></td>
+            <td colspan=""><a class="nextBtn" href="food.html">Next Game</a></td>
+            <td colspan=""> <button></button></td>
+        </tr>
+
+    </table>
+	<br>
+	 <h1 class="brand">Developed by BDU-byte</h1>
+
+    <script src="javascriptHome.js"></script>
+</body>
+
+</html>
